@@ -5,7 +5,7 @@ var require = function(path) {
     document.getElementsByTagName('body')[0].appendChild(script);
 }
 
-require('/js/objects/BasicCube.js');
+require('./js/objects/BasicCube.js');
 
 window.onload = function() {
     var scene = new THREE.Scene();
